@@ -2,6 +2,8 @@
 
 A [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server for integrating Amplitude analytics into AI workflows. This server allows AI assistants like Claude to track events, page views, user signups, set user properties, and track revenue in Amplitude.
 
+**Version 1.0.1 Note:** Tool names now include the `amplitude_` prefix to prevent namespace collisions with other analytics MCP servers.
+
 ## Table of Contents
 
 - [Features](#features)
