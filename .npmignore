@@ -1,0 +1,10 @@
+.git
+.DS_Store
+node_modules
+test-amplitude.js
+test.sh
+TESTING.md
+terminal_instructions.md
+claude_setup.sh
+install.sh
+.env
