@@ -120,7 +120,7 @@ This server uses the standard Model Context Protocol and can be integrated with 
 
 The Amplitude MCP server provides the following tools:
 
-### track_event
+### amplitude_track_event
 
 Tracks a custom event in Amplitude.
 
@@ -148,7 +148,7 @@ Tracks a custom event in Amplitude.
 }
 ```
 
-### track_pageview
+### amplitude_track_pageview
 
 Tracks a page view event in Amplitude.
 
@@ -172,7 +172,7 @@ Tracks a page view event in Amplitude.
 }
 ```
 
-### track_signup
+### amplitude_track_signup
 
 Tracks a signup event and creates a user profile in Amplitude.
 
@@ -190,7 +190,7 @@ Tracks a signup event and creates a user profile in Amplitude.
 }
 ```
 
-### set_user_properties
+### amplitude_set_user_properties
 
 Updates a user's profile properties in Amplitude.
 
@@ -211,7 +211,7 @@ Updates a user's profile properties in Amplitude.
 }
 ```
 
-### track_revenue
+### amplitude_track_revenue
 
 Tracks a revenue event in Amplitude.
 
@@ -244,7 +244,7 @@ You: Can you track an event in Amplitude when a user clicks the submit button?
 
 Claude: I'll track that event for you. Let me use the Amplitude analytics tool.
 
-[Claude uses the track_event tool with appropriate parameters]
+[Claude uses the amplitude_track_event tool with appropriate parameters]
 
 Claude: I've successfully tracked the 'button_clicked' event in Amplitude with the properties you specified.
 ```
@@ -256,7 +256,7 @@ You: Create a new user profile in Amplitude for Sarah Johnson who signed up with
 
 Claude: I'll create that user profile in Amplitude.
 
-[Claude uses the track_signup tool with appropriate parameters]
+[Claude uses the amplitude_track_signup tool with appropriate parameters]
 
 Claude: I've successfully tracked the signup for Sarah Johnson and created a profile in Amplitude with the premium plan.
 ```
@@ -268,7 +268,7 @@ You: Track a purchase of our premium plan for $99.99 by user12345.
 
 Claude: I'll track that revenue event in Amplitude.
 
-[Claude uses the track_revenue tool with appropriate parameters]
+[Claude uses the amplitude_track_revenue tool with appropriate parameters]
 
 Claude: I've successfully tracked revenue of $99.99 for the premium plan purchase by user12345.
 ```

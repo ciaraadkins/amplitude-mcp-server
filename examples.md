@@ -13,7 +13,7 @@ You: Can you track an event in Amplitude called "documentation_read" with the pr
 
 Claude: I'll help you track that event in Amplitude. Let me use the tracking tool.
 
-[Claude uses the Amplitude track_event tool]
+[Claude uses the amplitude_track_event tool]
 
 Claude: Successfully tracked the "documentation_read" event in Amplitude with the document_name property set to "user guide".
 ```
@@ -25,7 +25,7 @@ You: Please track a page view in Amplitude for the pricing page. The user ID is 
 
 Claude: I'll track that page view in Amplitude for you.
 
-[Claude uses the Amplitude track_pageview tool]
+[Claude uses the amplitude_track_pageview tool]
 
 Claude: I've tracked a page view for the "pricing" page for user "customer_xyz" in Amplitude.
 ```
@@ -37,7 +37,7 @@ You: Create an Amplitude profile for our new user Jane Smith who signed up with 
 
 Claude: I'll create that user profile in Amplitude right away.
 
-[Claude uses the Amplitude track_signup tool]
+[Claude uses the amplitude_track_signup tool]
 
 Claude: Successfully created a profile for Jane Smith with email jane@example.com on the premium plan in Amplitude.
 ```
@@ -49,7 +49,7 @@ You: Update the Amplitude profile for user "user_john_example_com" to set their 
 
 Claude: I'll update that user profile in Amplitude.
 
-[Claude uses the Amplitude set_user_properties tool]
+[Claude uses the amplitude_set_user_properties tool]
 
 Claude: Successfully updated the Amplitude profile for user "user_john_example_com" with company set to "Acme Inc" and role set to "Manager".
 ```
@@ -61,7 +61,7 @@ You: Track a purchase in Amplitude for user "customer_xyz" who bought product "a
 
 Claude: I'll track that revenue event in Amplitude.
 
-[Claude uses the Amplitude track_revenue tool]
+[Claude uses the amplitude_track_revenue tool]
 
 Claude: Successfully tracked revenue of $299.99 for user "customer_xyz" purchasing "annual_subscription".
 ```
